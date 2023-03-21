@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="158dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="153dp"
+            android:text="GALERÍA"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/gridview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07" />
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="222dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="18dp"
+            android:background="#0F3C5E"
+            android:text="VOLVER AL MENÚ"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/gridview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.163" />
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:numColumns="1"
+            android:verticalSpacing="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

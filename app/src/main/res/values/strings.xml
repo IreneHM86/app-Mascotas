@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IlernaVet</string>
+    <string name="sacar_foto">Sacar foto</string>
+    <string name="volver_al_men_principal">volver al menú Principal</string>
+
+</resources>

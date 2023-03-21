@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/titulo"
+        android:layout_width="293dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="57dp"
+        android:background="#10436A"
+        android:text="BASE DE DATOS"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bbdd1"
+        android:layout_width="186dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="466dp"
+        android:background="#10436A"
+        android:text="INSERTAR REGISTRO"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/bbdd2"
+        android:layout_width="186dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="378dp"
+        android:background="#10436A"
+        android:text=" CONSULTAR DATOS "
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bbdd1" />
+
+    <Button
+        android:id="@+id/bbdd3"
+        android:layout_width="186dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="291dp"
+        android:background="#10436A"
+        android:text="MODIFICAR REGISTRO"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bbdd2" />
+
+    <Button
+        android:id="@+id/bbdd4"
+        android:layout_width="186dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="202dp"
+        android:background="#10436A"
+        android:text="ELIMINAR REGISTRO"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bbdd5"
+        android:layout_width="186dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="116dp"
+        android:background="#10436A"
+        android:text="VOLVER ACTIVITY 1"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bbdd4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="96dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="565dp"
+        android:text="MENÚ"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
